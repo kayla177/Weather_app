@@ -219,9 +219,9 @@ function getIcon(condition) {
     } else if (condition === "clear-night") {
         return "https://i.ibb.co/1nxNGHL/10.png";
     } else if (condition === "snow") {
-        return "./icons/snow.png";
+        return "https://i.ibb.co/Zf17chp/snow.png";
     } else if (condition === "cloudy") {
-        return "./icons/cloudy.png";
+        return "https://i.ibb.co/0cNLLb4/cloudy.png";
     } else {
         return "https://i.ibb.co/rb4rrJL/26.png";
     }
@@ -358,9 +358,9 @@ function changeBackground(condition) {
     } else if (condition === "clear-night") {
         bg = "https://i.ibb.co/kqtZ1Gx/cn.jpg";
     } else if (condition === "snow") {
-        bg = "./images/snow.jpg";
+        bg = "https://img.freepik.com/free-photo/mysterious-winter-landscape-majestic-mountains-winter_146671-14057.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703980800&semt=ais";
     } else if (condition === "cloudy") {
-        bg = "./images/cloudy.jpeg";
+        bg = "https://images3.alphacoders.com/704/704427.jpg";
     } else {
         bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
     }
