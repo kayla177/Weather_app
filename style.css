@@ -282,7 +282,7 @@ nav .units button {
     top: 40px;
     border-radius: 5px;
     transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #fff;
 }
 
@@ -291,5 +291,17 @@ nav .units button {
     border-bottom: 1px solid #f1f1f1;
     cursor: pointer;
     text-transform: capitalize;
+}
+
+.search ul li:last-child {
+    border-bottom: none;
+}
+
+.search ul li:hover {
+    background-color: #f1f1f1;
+}
+
+.search ul li.active {
+    background-color: #f1f1f1;
 }
 
